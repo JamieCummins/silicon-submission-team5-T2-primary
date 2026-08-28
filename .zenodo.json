@@ -1,0 +1,46 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark <e2><80><94> Tier 2 (group-level reasoning) submission (team team_5)",
+  "version": "1.0-t2",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Cummins, Jamie",
+      "affiliation": "University of Bern"
+    }
+  ],
+  "description": "<p>Cell-level means derived from the team's calibrated-cohort generator: reference-calibrated baselines, crowd-forecast effects, real demographic level differences with headroom-proportional moderation.<\/p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/JamieCummins/silicon-benchmark-team5",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_5. Disclosure class A."
+}

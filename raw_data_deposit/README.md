@@ -1,0 +1,1 @@
+Raw model outputs: JSONL files contain every API call (full prompt, response, usage, timing) for the runs feeding this entry; the CSV is the parsed/tidied version. Generator code and seeds: see code_repository in metadata.json.

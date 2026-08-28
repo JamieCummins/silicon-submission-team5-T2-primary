@@ -1,0 +1,44 @@
+{
+  "team_id": "team_5",
+  "team_name": "Team 5 (Cummins)",
+  "contact": "jamie.cummins@unibe.ch",
+  "creators": [
+    {
+      "name": "Cummins, Jamie",
+      "affiliation": "University of Bern",
+      "orcid": ""
+    }
+  ],
+  "abstract": "Cell-level means derived from the team's calibrated-cohort generator: reference-calibrated baselines, crowd-forecast effects, real demographic level differences with headroom-proportional moderation.",
+  "license": "CC-BY-4.0",
+  "tier": 2,
+  "entry": "primary",
+  "approach_family": "measurement-calibrated statistical synthesis; LLM ensemble for effects only",
+  "models": [
+    "gpt-5.6-terra (OpenAI API)",
+    "gpt-5.6-luna (OpenAI API)",
+    "openai/gpt-oss-120b (Groq API)",
+    "deepseek/deepseek-v3.2 (OpenRouter)",
+    "meta-llama/llama-4-maverick (OpenRouter)"
+  ],
+  "code_repository": "https://github.com/JamieCummins/silicon-benchmark-team5",
+  "code_doi": null,
+  "disclosure_class": "A",
+  "escrow_doi": null,
+  "zenodo_doi": null,
+  "prediction_files": [
+    {
+      "file": "predictions/team_5_T2_primary_v1_cells_main.csv",
+      "sha256": "16eedb9b56ae46ac4b8a0af150e21a9e5d6a90faf29ba1c686438e7701f28e1c"
+    },
+    {
+      "file": "predictions/team_5_T2_primary_v1_cells_moderator.csv",
+      "sha256": "29282730937dfb3f3f24bd4278320cd46f2cd3925d8f2f03c6e8f9c19bd39b00"
+    }
+  ],
+  "coverage": {
+    "interventions": 16,
+    "outcomes": 13
+  },
+  "blinding_attestation": true
+}
